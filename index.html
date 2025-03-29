@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back2Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Lost & Found</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#report" class="hover:underline">Report Item</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero bg-blue-500 text-white text-center py-16">
+        <h2 class="text-4xl font-semibold">Find Your Lost Items</h2>
+        <p class="mt-2">Report or search for lost and found items easily.</p>
+        <div class="mt-4 flex justify-center">
+            <input type="text" placeholder="Search for lost items..." class="p-2 rounded-l-md border-none outline-none text-gray-900 w-64">
+            <button class="bg-yellow-400 px-4 py-2 rounded-r-md font-semibold hover:bg-yellow-500">Search</button>
+        </div>
+    </section>
+    
+    <section class="recent-items container mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">Recently Found Items</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 bg-gray-100 rounded-lg shadow">Wallet - Found at Central Park</div>
+            <div class="p-4 bg-gray-100 rounded-lg shadow">Backpack - Found at Library</div>
+            <div class="p-4 bg-gray-100 rounded-lg shadow">Keys - Found at Gym</div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 Lost & Found. All rights reserved.</p>
+    </footer>
+</body>
+</html>
