@@ -1,7 +1,8 @@
-Back2Me
+# Back2Me
+
 A Lost & Found web app with QR-based verification and a chat feature for easy coordination.
 
-Features
+# Features
 📌 Report Lost & Found Items
 
 🔍 Search for Items
@@ -12,7 +13,7 @@ Features
 
 🔒 User Authentication
 
-Setup
+# Setup
 Clone the repo:
 
 sh
@@ -26,7 +27,7 @@ Start Apache & MySQL in XAMPP.
 
 Open http://localhost/back2me/index.php.
 
-Tech Stack
+# Tech Stack
 Frontend: HTML, Tailwind CSS
 
 Backend: PHP, MySQL
